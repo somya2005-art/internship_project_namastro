@@ -1,0 +1,1212 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@function convert($px){
+    @return ($px/14.4)*1vw;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  header {
+    padding-top: convert(30);
+    background-color: #191134;
+    font-family: figtree;
+    padding-bottom: convert(60);
+  }
+
+  .sep{
+    height:2px;
+    width:100%;
+    background-color: #000;
+    box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .container {
+    width: 81.94%;
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .logo{
+    img{
+      width: convert(137.063);
+      height: convert(43.403);
+    }
+  }
+
+  .info {
+    margin-left: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .language select{
+    border:none;
+    background-color:#191134;
+    color:white;
+    font-family: Figtree;
+    text-decoration: underline;
+    font-size: convert(14);
+  }
+
+  .separator {
+    width: convert(1);
+    height: convert(38);
+    background-color: white;
+    margin-left: convert(30);
+    margin-right: convert(30);
+  }
+
+  .download a{
+    width: convert(231);
+    height: convert(43);
+    border-radius: convert(10);
+    border: convert(1) solid #ffcb3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap:convert(10);
+    font-size: convert(14);
+
+    svg{
+      width: convert(15.485);
+      height: convert(17);
+    }
+
+  }
+
+  .section1 {
+    background-color: #191134;
+    border-bottom-right-radius: convert(20);
+    border-bottom-left-radius: convert(20);
+  }
+  .row2 {
+    display: flex;
+  }
+
+  .para {
+    margin-top: convert(200);
+  }
+
+  .p1 {
+    font-size: convert(46.513);
+    font-weight: 700;
+    font-family: Philosopher;
+    color: white;
+  }
+
+  .logo1 {
+    position: relative;
+
+    img{
+      width: convert(644.211);
+      height: convert(204);
+
+    }
+  }
+
+  .length {
+    width: convert(615);
+    height: convert(1);
+    background-color: #ffcb3c;
+    margin-left: convert(-150);
+    position: absolute;
+    top: convert(150);
+  }
+
+  .p2 {
+    font-family: Montserrat;
+    font-size: convert(26.4);
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    width: convert(427.68);
+    text-align: center;
+    margin-top: convert(-40);
+  }
+
+  span {
+    color: #ffcb3c;
+  }
+   
+
+  .journey a {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: convert(21.091);
+    width: convert(263.636);
+    height: convert(58);
+    border: convert(0.5) solid #ffcb3c;
+    margin-top: convert(30);
+    border-radius: convert(50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(0deg, #171034 7.95%, #31265f 100%);
+    margin-left: convert(70);
+  }
+
+  .pic {
+
+    width: convert(496);
+    height: convert(646);
+    
+    img {
+    width: convert(496);
+    height: convert(646);
+    margin-left: convert(125);
+  }
+}
+
+  .section2 {
+    background-image: url("../images/Vector.png");
+    background-size: convert(100);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: convert(30);
+  }
+  
+
+  .row3 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: convert(30);
+  }
+
+  .div1 {
+    color: white;
+  }
+
+  .cappara {
+    font-family: Philosopher;
+    font-size: convert(78.385);
+    font-weight: 700;
+    color: #191134;
+  }
+
+  .smallpara {
+    color: #6e6e6e;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(20.694);
+    font-style: normal;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+  }
+
+  .section3 {
+    background-color: #191134;
+    background-image: url("../images/Group\ 1686560807.png");
+    background-position: top right;
+    background-size: convert(100);
+    background-repeat: no-repeat;
+    padding-top: convert(60);
+  }
+
+  .row4 {
+    display: flex;
+
+    .pic1{
+
+      width: convert(474);
+      height: convert(537);
+
+
+      img{
+        width: convert(474);
+        height: convert(537);
+      }
+    }
+  }
+
+  .paragraph {
+    margin-left: auto;
+    margin-top: convert(100);
+  }
+
+  .p3 {
+    font-family: Montserrat;
+    font-size: convert(26.4);
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    width: convert(578);
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .journey1 a{
+    width: convert(263.636);
+    height: convert(58);
+    border: convert(0.5) solid #ffcb3c;
+    margin-top: convert(30);
+    border-radius: convert(50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(0deg, #171034 7.95%, #31265f 100%);
+    margin-left: convert(150);
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: convert(21.091);
+  }
+
+
+  .row5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: convert(50);
+    position: relative;
+
+    .pic2{
+      width: convert(474);
+      height: convert(537);
+
+      img{
+        width: convert(474);
+        height: convert(537);
+      }
+    }
+  }
+
+  .p4 {
+    font-family: Philosopher;
+    font-size: convert(46.513);
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .div4 {
+    width: convert(361);
+    height: convert(88);
+    border-radius: convert(10);
+    background: #fff;
+    box-shadow: convert(12) convert(12) convert(40) 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    left: convert(45);
+  }
+
+  .div41 {
+    display: flex;
+    margin-top: convert(20);
+    gap: convert(70);
+    width: convert(280);
+    color: #271c4b;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(18);
+    font-weight: 400;
+    margin-left: convert(30);
+
+    img{
+
+      width: convert(46);
+      height: convert(42);
+
+    }
+  }
+
+  .div5 {
+    width: convert(361);
+    height:convert(88) ;
+    border-radius: convert(10);
+    background: #fff;
+    box-shadow: convert(12) convert(12) convert(40) 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    left: convert(110);
+    top: convert(480);
+  }
+
+  .div51 {
+    display: flex;
+    margin-top: convert(20);
+    gap: convert(70);
+    width: convert(280);
+    color: #271c4b;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(18);
+    font-weight: 400;
+    margin-left: convert(30);
+
+    img{
+
+      width: convert(46);
+      height: convert(42);
+
+    }
+  }
+
+  .div6 {
+    width: convert(361);
+    height: convert(88);
+    border-radius: convert(10);
+    background: #fff;
+    box-shadow: convert(12) convert(12) convert(40) 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    left: convert(890);
+    top: convert(350);
+  }
+
+  .div61 {
+    display: flex;
+    margin-top: convert(20);
+    gap: convert(70);
+    width: convert(280);
+    color: #271c4b;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(18);
+    font-weight: 400;
+    margin-left: convert(30);
+
+    img{
+
+      width: convert(46);
+      height: convert(42);
+
+    }
+  }
+
+  .section5 {
+    background-color: #191134;
+    padding-top: convert(80);
+  }
+
+
+  .p5 {
+    font-size: convert(46.513);
+    font-weight: 700;
+    font-family: Philosopher;
+    color: white;
+    text-align: center;
+  }
+
+  .row6 {
+    display: flex;
+    margin-top: convert(120);
+  }
+
+  .p11 {
+    color: #191134;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: convert(46.513);
+    font-weight: 700;
+    width: convert(448);
+    height: convert(82);
+    margin-bottom: convert(30);
+  }
+
+  .p13 {
+    color: #191134;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(26.4);
+    font-weight: 400;
+    width: convert(391);
+    margin-left: convert(30);
+  }
+
+  .pic10 {
+    margin-left: auto;
+    width: 37.916667vw;
+    height: convert(537);
+
+    img{
+
+      width: 37.916667vw;
+      height: convert(537);
+
+    }
+  }
+
+  .journey2 a{
+    width: convert(200);
+    height: convert(44);
+    border: convert(0.5) solid #ffcb3c;
+    margin-top: convert(30);
+    border-radius: convert(50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(0deg, #171034 7.95%, #31265f 100%);
+    margin-left: convert(120);
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: convert(16);
+    font-weight: 500;
+  }
+
+  .paragraph1 {
+    margin-left: convert(80);
+    margin-top: convert(200);
+  }
+
+  .section7 {
+    background-color: #191134;
+    padding-top:convert(30);
+    padding-bottom: convert(50);
+  }
+
+  .row7 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:convert(50);
+  }
+
+  .pp1 {
+    font-family: Philosopher;
+    font-size: convert(46.513);
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+
+  .pp2 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(26.4);
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  .row8 {
+    display: flex;
+    justify-content: center;
+    margin-top: convert(50);
+  }
+
+  .scanpic{
+
+    width: convert(416);
+    height: convert(532.902);
+    img {
+      width: convert(416);
+      height: convert(532.902);
+    }
+  }
+
+  .section8{
+    position: relative;
+    overflow:hidden;
+ }
+
+  .rot1{
+    position: absolute;
+    top:50%;
+    height: convert(362);
+    width: convert(362);
+    transform: translateY(-50%) translateX(-50%);
+    animation: rotating1 10s linear infinite normal;
+
+    img{
+      width: convert(362);
+      height: convert(362);
+    }
+  }
+
+   .rot2{
+      position: absolute;
+      top:50%;
+      right:0;
+      width: convert(362);
+      height: convert(362);
+      transform: translateY(-50%) translateX(50%);
+      animation: rotating2 10s linear infinite normal;
+
+      img{
+        width: convert(362);
+        height: convert(362);
+    }
+  }
+
+  @keyframes rotating2{
+    from {transform: translateY(-50%) translateX(50%) rotate(0deg)}
+    to {transform: translateY(-50%) translateX(50%) rotate(360deg)};
+  }
+
+  @keyframes rotating1{
+    from {transform: translateY(-50%) translateX(-50%) rotate(0deg)}
+    to {transform: translateY(-50%) translateX(-50%) rotate(360deg)};
+  }
+
+  .pp3 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(15.843);
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  .row91 {
+    display: flex;
+    margin-top: convert(50);
+    gap: convert(20);
+  }
+
+  .div8,
+  .div9,
+  .div10 {
+    display: flex;
+    flex-direction: column;
+    gap: convert(10);
+    width: 33.33%;
+  }
+
+  .div81 {
+    height: convert(308.932);
+    border-radius: convert(11.522);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div81 p {
+    color: #707070;
+    font-family: Montserrat;
+    font-size: convert(14.402);
+    font-weight: 400;
+    width: convert(319.734);
+  }
+
+  .row811 {
+    display: flex;
+    margin-top: convert(70);
+    margin-left: convert(30);
+
+    .profinfo{
+      img{
+        width: convert(61.526);
+        height: convert(10.536);
+
+      }
+    }
+
+    .profpic{
+      width: convert(43.207);
+      height: convert(43.207);
+
+      img{
+
+        width: convert(43.207);
+        height: convert(43.207);
+      }
+
+    }
+  }
+
+  .div811 p {
+    color: #000;
+    font-family: Philosopher;
+    font-size: convert(18.723);
+    font-weight: 400;
+  }
+
+  .div82 {
+    height: convert(308.932);
+    border-radius: convert(11.522);
+    background: #fff;
+  }
+
+  .div91 {
+    height: convert(248.442);
+    border-radius: convert(11.522);
+    background: #fff;
+  }
+
+  .parainfo {
+    color: #707070;
+    font-family: Montserrat;
+    font-size: convert(14.402);
+    font-weight: 400;
+    width: convert(319.734);
+    margin-top: convert(30);
+    margin-left: convert(20);
+  }
+
+  .row911,
+  .row1011,
+  .row1022 {
+    display: flex;
+
+    .profinfo102, .profinfo101{
+
+      img{
+
+        width: convert(61.526);
+        height: convert(10.536);
+      }
+    }
+
+    .profinfo9{
+
+      img{
+
+        width: convert(61.526);
+        height: convert(10.536);
+      }
+    }
+
+    .profpic101{
+
+      width: convert(43.207);
+      height: convert(43.207);
+
+      img{
+        width: convert(43.207);
+        height: convert(43.207);
+      }
+    }
+  }
+
+  .profinfo101{
+    p{
+
+        color: #000;
+        font-family: Philosopher;
+        font-size: convert(18.723);
+
+      }
+  }
+
+  .row1022{
+
+    p{
+
+      font-size: convert(18.723);
+      color: #000;
+      font-family: Philosopher;
+
+    }
+    .profpic102{
+      width: convert(43.207);
+      height: convert(43.207);
+
+      img{
+
+        width: convert(43.207);
+        height: convert(43.207);
+      }
+    }
+  }
+
+  .div1022 {
+    margin-top: convert(100);
+    margin-left: convert(20);
+  }
+
+  .div1011 {
+    margin-top: convert(60);
+    margin-left: convert(20);
+  }
+
+  .div911 p {
+    color: #000;
+    font-family: Philosopher;
+    font-size: convert(18.723);
+    font-weight: 400;
+  }
+
+  .div92 {
+    height: convert(369.423);
+    border-radius: convert(11.522);
+    background: #fff;
+  }
+
+  .profinfo92 p {
+    color: #000;
+    font-family: Philosopher;
+    font-weight: 400;
+    font-size: convert(18.723);
+  }
+
+  .profpic9{
+    
+    width: convert(43.207);
+    height: convert(43.207);
+
+    img{
+      
+      width: convert(43.207);
+      height: convert(43.207);
+
+    }
+  }
+
+  .div921 {
+    margin-top: convert(100);
+    margin-left: convert(20);
+  }
+
+  .div911 {
+    margin-top: convert(50);
+    margin-left: convert(20);
+  }
+
+  .parainfo {
+    color: #707070;
+    font-family: Montserrat;
+    font-size: convert(14.402);
+    font-style: normal;
+    font-weight: 400;
+    width: convert(319.734);
+    margin-top: convert(30);
+    margin-left: convert(30);
+  }
+
+  .row921 {
+    display: flex;
+
+    .profinfo92{
+
+      img{
+
+        width: convert(61.526);
+        height: convert(10.536);
+      }
+    }
+
+    .profpic92{
+
+      width: convert(43.207);
+      height: convert(43.207);
+
+      img{
+
+        width: convert(43.207);
+        height: convert(43.207);
+      }
+    }
+  }
+
+  .div101 {
+    height: convert(308.932);
+    border-radius: convert(11.522);
+    background: #fff;
+  }
+
+  .div102 {
+    height: convert(308.932);
+    border-radius: convert(11.522);
+    background: #fff;
+  }
+
+  .div10-1-1 {
+    color: #191134;
+    font-family: Philosopher;
+    font-size: convert(40.961);
+    font-weight: 700;
+  }
+
+  .row10-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: convert(50);
+    padding-bottom: convert(20);
+  }
+
+  .row10-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: convert(40);
+  }
+
+  .div10-1-2 {
+    display: flex;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: convert(20);
+    font-weight: 500;
+    text-transform: capitalize;
+    align-items: flex-end;
+
+    a{
+
+      svg{
+
+        width: convert(10);
+        height: convert(10);
+      }
+    }
+  }
+
+  .div10-1-2 a{
+    color:#171034;
+  }
+
+
+  .div10-1-3,
+  .div10-1-4,
+  .div10-1-5 {
+    width: 31%;
+    // background-color: #191134;
+    border-radius: convert(20.448);
+    padding-bottom: convert(20);
+    background: linear-gradient(166deg, #271B59 -32.61%, #0E0A1F 53.7%);
+  }
+
+  .grad{
+    width:100%;
+    height:convert(50);
+    background: linear-gradient(0deg, #0E0A1F 0%, rgba(14, 10, 31, 0.00) 100%);
+    position:absolute;
+    bottom:100%;
+    left:0;
+  }
+
+  h3 {
+    color: #ffcb3c;
+    font-family: Philosopher;
+    width: convert(250);
+    font-size: convert(25);
+    font-weight: 700;
+  }
+
+  .image {
+    width: 100%;
+    margin-top: convert(20);
+  }
+
+  .para10-1-3 {
+    color: #e4e4e4;
+    font-family: Montserrat;
+    size: convert(13);
+    padding-left: convert(30);
+    padding-top: convert(30);
+  }
+
+  .para10-1-3 p {
+    margin-top: convert(20);
+    font-size: convert(13);
+  }
+
+  .para210-1-3 {
+    text-align: center;
+    position: relative;
+
+  }
+
+  .div10-1-2 a {
+    text-decoration: none;
+  }
+  .g1 {
+    color: #fff;
+    font-family: Abhaya Libre;
+    font-size: convert(13.291);
+    font-style: normal;
+    font-weight: 400;
+    text-align:center;
+  }
+
+  .g2 {
+    color: #fff;
+    font-family: Philosopher;
+    font-size: convert(35.996);
+    font-weight: 700;
+  }
+
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+   
+  }
+
+  .swiper-slide img {
+    display: block;
+  }
+
+  .img1{
+    display: flex;
+    width: 100%;
+    height: 17.277778vw;
+    padding: convert(12.743) convert(12.743) convert(36.41) convert(12.743);
+    flex-direction: column;
+    align-items: center;
+    border-radius: convert(18.205);
+    border: convert(0.91) solid var(--stroke, rgba(0, 0, 0, 0.12));
+    background: #FFF;
+    box-shadow: 0px convert(7.282) convert(21.846) 0px rgba(149, 157, 165, 0.20);
+
+    img{
+
+      height: convert(197);
+      width: 100%;
+
+    }
+  }
+
+  .exp{
+    display:flex;
+    margin-right:auto;
+    margin-top: convert(10);
+    flex-direction:column;
+  }
+
+  .exp h4{
+    color: var(--Color-2, #35093C);
+    font-family: Philosopher;
+    font-size: convert(18.205);
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .exp p{
+    color: var(--Color-2, #35093C);
+    font-family: Montserrat;
+    font-size: convert(12.644);
+    font-weight: 500;
+    letter-spacing: convert(0.255);
+  }
+
+  .section9 {
+    background-color: #191134;
+    padding-bottom: convert(90);
+    padding-top: convert(50);
+  }
+
+  .section11 {
+    background-color: #191134;
+    background-image: url("../images/Vector\ \(4\).png");
+    background-position: center;
+    background-size: convert(400);
+    background-repeat: no-repeat;
+  }
+
+  .row11 {
+    color: #fff;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: convert(46.513);
+    font-weight: 700;
+    padding-top: convert(50);
+    padding-bottom: convert(50);
+  }
+
+  h2 {
+    margin-top: convert(50);
+    color: #1d143f;
+    font-family: Philosopher;
+    font-size: convert(46.513);
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: convert(30);
+  }
+
+  .row13 {
+    display: flex;
+    padding-top: convert(60);
+    justify-content: space-between;
+    border-bottom: convert(1) solid #ffffff;
+    padding-bottom: convert(20);
+
+    .material{
+
+      a{
+
+        svg{
+
+          width: convert(156.372);
+          height: convert(44.351);
+
+        }
+      }
+      .logo3{
+
+        width: convert(94);
+        height: convert(30);
+
+        img{
+
+          width: convert(94);
+          height: convert(30);
+
+        }
+      }
+    }
+  }
+
+  .material p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: convert(18);
+    font-weight: 400;
+    margin-bottom: convert(30);
+  }
+
+  .material h4 {
+    color: #fff;
+    font-family: Philosopher;
+    font-size: convert(40.2);
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  ul li a {
+  }
+  ul {
+    li {
+      color: #fff;
+      font-size: convert(16);
+      width: max-content;
+      margin-left: auto;
+      margin-bottom: convert(20);
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Philosopher;
+        font-size: convert(16);
+        font-weight: 400;
+        text-align: right;
+      }
+    }
+  }
+
+  .merged{
+    background: linear-gradient(to bottom, #1E1543 0%, #0F0B20 100%);
+  }
+
+  .row14 {
+    padding-top: convert(20);
+    padding-bottom: convert(20);
+    color: #fff;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: convert(18);
+    font-weight: 400;
+    
+  }
+
+  .row14 a{
+    text-decoration: none;
+    color:white;
+  }
+
+  .icons {
+    padding-top: convert(30);
+    ul {
+        gap: convert(16);
+        display: flex;
+      li {
+        list-style-type: none;
+        a{
+            width: convert(36);
+            height: convert(36);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff1a;
+            border-radius: convert(10);
+
+            img{
+              width: convert(10);
+              height: convert(10);
+            }
+        }
+      }
+    }
+  }
+
+  .accordianrow button{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    padding-left: convert(30);
+    padding-right:convert(30);
+    svg{
+        transition: 0.5s;
+        width: convert(27.175);
+        height: convert(27.077);
+
+    }
+    &.show{
+        background-color:#1D143F;
+        color: #fff;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        svg{
+            transform: rotate(180deg);
+            path{
+                fill: #fff;
+            }
+        }
+    }
+  }
+  
+    .accordion {
+        width: 100%;
+        height: convert(88);
+        border-radius: convert(10);
+        background: #FFF;
+        box-shadow: 0px convert(11.323) convert(33.969) 0px rgba(0, 0, 0, 0.05);
+        color: #000;
+        font-family: Philosopher;
+        font-size: convert(20);
+        font-weight: 400;   
+        text-align:left;
+        border:none;
+    }
+
+
+    .panel {
+        height: convert(211);
+        border-radius: convert(10);
+        background: #1D143F;
+        box-shadow: 0px convert(11.323) convert(33.969) 0px rgba(0, 0, 0, 0.05);
+        color: #FFF;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-weight: 400;
+        line-height: convert(31.705);
+        padding-top:convert(60);
+        padding-left:convert(30);
+        padding-right:convert(30);
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        display: none;
+        font-size: convert(18);
+        
+    }
+
+    .single{
+      margin-bottom:convert(20);
+    }
+}
