@@ -2,7 +2,8 @@
   - This is a high-impact landing page built using HTML and Sass, featuring smooth animations, a manual swipe slider, and multiple JavaScript plugins to enhance interactivity. It’s crafted for desktop-only viewing and designed to leave a strong visual impression.
 
 🔗 Live Preview
-👉 Check it out here
+
+👉 https://somya2005-art.github.io/internship_project_namastro/
 
 🧰 Built With
 - HTML5
