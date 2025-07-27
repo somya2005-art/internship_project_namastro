@@ -1,5 +1,5 @@
-🚀 Landing Page
-  - This is a landing page designed to make a strong first impression. It is built using HTML and Sass (without Bootstrap), and features a clean layout, smooth styling, and a focus on clear content presentation.
+🚀 Landing Page — Swiper, Animations & Plugins 
+  - This is a high-impact landing page built using HTML and Sass, featuring smooth animations, a manual swipe slider, and multiple JavaScript plugins to enhance interactivity. It’s crafted for desktop-only viewing and designed to leave a strong visual impression.
 
 🔗 Live Preview
 👉 Check it out here
@@ -7,21 +7,31 @@
 🧰 Built With
 - HTML5
 - Sass (SCSS)
-    - Developed with Sass functions, variables, and modular components for maintainable and scalable styling.
+    - Includes Sass functions, variables, and partials for modular and maintainable styling.
+- JavaScript Plugins
+    - Used for animations, swiper functionality, and interactive UI behavior.
 
 ✨ Features
-1. Clean & Modern Layout:
-    - Optimized to highlight key sections like hero, features, and CTA (Call to Action).
+1. Desktop-Focused Design:
+  - Specifically designed and optimized for desktop screen sizes.
 
-2.  Reusable Sass Structure:
-    - DRY codebase with reusable utilities and partials.
+2. Manual Swipe Slider:
+    - Users can swipe/drag to view content — great for showcasing testimonials, features, or highlights.
+
+3. Animations:
+    -animations enhance visual appeal.
+   
+5.  Plugin Integrations:
+    - Includes libraries for animation, swiping, and dynamic UI effects.
+
+6. Custom Sass Styling
 
 💡 Highlights
-1. Purpose-built landing page without relying on frontend frameworks.
+1. Beautiful landing experience powered by custom code and visual effects.
 
-2. Sass functions used to manage consistent spacing, colors, and breakpoints.
+2. Built without any CSS frameworks — handcrafted using only Sass and HTML.
 
-3. Easy to expand into a multi-page website or integrate with JavaScript plugins later.
+3. Plugins and sliders are configured to match the aesthetic and performance needs.
 
 📝 Note
-This version was developed specifically for desktop view. While a mobile design existed, this build focused on desktop layout due to project scope and priorities at the time.
+This version was developed specifically for desktop view. There was no Figma design provided for this page, and it was created entirely based on desktop requirements and design intuition.
